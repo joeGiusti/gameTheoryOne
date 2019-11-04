@@ -12,11 +12,11 @@
       var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Desktop.json", {onProgress: UnityProgress});
     </script>
   </head>
-  <body>
+  <body style="background-color:black;">
     <div class="webgl-content" style="width: 95%; height: 80%">
       <div id="unityContainer" style="width: 95%; height: 80%"></div>
         <div  onclick="unityInstance.SetFullscreen(1)"></div>
-      <p>Press M to make food rain down. Click on the map to place fresh subjects.</p>
+      <div style="height:100px; width:100%; text-align:center;"><p>Press M to make food rain down. Click on the map to place fresh subjects.</p></div>
       <div class="footer">
         <div class="webgl-logo"></div>
         
